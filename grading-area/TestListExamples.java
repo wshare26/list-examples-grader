@@ -35,8 +35,8 @@ public class TestListExamples {
     List<String> list2 = Arrays.asList("c","d","e");
     List<String> actualoutputlist = ListExamples.filter(list1, s -> s.compareTo("b") > 0);
     assertEquals(list2, actualoutputlist);
-  }
 
-  
+
+  }
 
 }
